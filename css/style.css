@@ -1,0 +1,79 @@
+body{
+	font-family: 'Modern Antiqua', cursive;
+	background-color: #f2f1f1;
+}
+
+img{
+	max-width:100%;
+}
+
+#youtube-wrapper{
+	width: 100%;
+	background-color: #fff;
+	height: 50px;
+	font-family: 'Modern Antiqua', cursive;
+}
+
+#nav{
+	width: 100%;
+	background-color: white;
+	height: 100px;
+	border: 1px solid black; /* remove this */
+}
+
+#logo{
+	float:left;
+	height: 50px;
+	width: 25%;
+}
+
+#logo img{
+	height: 20%;
+	float: left;
+}
+
+
+li{
+	display: inline;
+	padding: 10px;
+}
+
+#nav ul li{
+	float: left;
+	/* width: 75%; */
+}
+
+#logo-left{
+	width:30%;
+	padding-right: 20px;
+	margin-top: -10px;
+	float:left;
+	border: 1px solid black; /* remove this */
+}
+input{
+	width: 250px;
+	height: 20px;
+}
+
+#middle{
+	width:30%;
+	margin-top: -10px;
+	float:left;
+	text-align: center;
+	border: 1px solid black; /* remove this */
+}
+
+#mid-list{
+}
+
+#right{
+	width:30%;
+	margin-top: 15px;
+	float: right;
+	border: 1px solid black; /* remove this */
+}
+
+#links, #home{
+	float: right;
+}
+
