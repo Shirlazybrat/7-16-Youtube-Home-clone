@@ -1,6 +1,8 @@
 body{
 	font-family: 'Modern Antiqua', cursive;
 	background-color: #f2f1f1;
+	margin: 0px;
+	padding:0px;
 }
 
 img{
@@ -23,30 +25,31 @@ img{
 
 #logo{
 	float:left;
-	height: 50px;
+	height: 85px;
 	width: 25%;
 }
 
 #logo img{
-	height: 20%;
-	float: left;
+	height: 30%;
 }
 
 
 li{
 	display: inline;
-	padding: 10px;
+	padding: 3px 5px;
 }
 
 #nav ul li{
 	float: left;
-	/* width: 75%; */
+}
+
+#logo-left, #middle, #right{
+	margin: 10px;
 }
 
 #logo-left{
 	width:30%;
-	padding-right: 20px;
-	margin-top: -10px;
+	/* padding-right: 20px; */
 	float:left;
 	border: 1px solid black; /* remove this */
 }
@@ -57,10 +60,13 @@ input{
 
 #middle{
 	width:30%;
-	margin-top: -10px;
 	float:left;
 	text-align: center;
 	border: 1px solid black; /* remove this */
+}
+
+#search-bar{
+	padding: 15px;
 }
 
 #mid-list{
@@ -68,9 +74,13 @@ input{
 
 #right{
 	width:30%;
-	margin-top: 15px;
 	float: right;
 	border: 1px solid black; /* remove this */
+}
+
+ul#home{
+	margin: 5px;
+    float: none;
 }
 
 #links, #home{
